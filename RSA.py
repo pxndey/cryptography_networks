@@ -36,5 +36,5 @@ for d in range(2,100000000):
         private_key= (d,n)
         break
 
-print(private_key)
-print(public_key)
+print(f"The Private key is {private_key}")
+print(f"The public key is {public_key}")
